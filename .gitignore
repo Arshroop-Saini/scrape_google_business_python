@@ -1,2 +1,10 @@
+#Virtual environment
 .venv
 
+#Extracted data folders with all the files in three diferrent formats
+csv/
+json/
+xlsx/
+
+#System files
+.DS_Store
