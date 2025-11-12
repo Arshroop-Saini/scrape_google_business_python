@@ -1,5 +1,16 @@
 # Google Maps Business Scraper
 
+Skip pricey Chrome extensions—scrape unlimited Google Business data for free with this script. Instead of paying recurring fees, run a customizable Playwright-based scraper on your own machine to export JSON, CSV, and Excel files in one go.
+
+| Feature / Cost | Paid Chrome Extension | This Script |
+| --- | --- | --- |
+| Monthly price | \$49–\$199+ | \$0 |
+| Data limits | Tiered quotas | Unlimited (your hardware + patience) |
+| Export formats | CSV only (often) | JSON, CSV, XLSX |
+| Custom queries | Limited UI | Fully editable `queries` list |
+| Browser visibility | Headless only | Interactive Chromium window |
+| Ownership | Vendor controlled | You own the code/data |
+
 This project contains an asynchronous Google Maps scraper that collects business details for a list of search queries and writes the results to JSON, CSV, and Excel files.
 
 - **Script entry point:** `script.py`
