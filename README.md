@@ -36,7 +36,14 @@ This project contains an asynchronous Google Maps scraper that collects business
    pip install playwright openpyxl
    playwright install chromium
    ```
-3. Update the `queries` list in `script.py` if you want different search terms.
+3. Update the `queries` list in `script.py` to change search terms—just edit the array of strings, for example:
+   ```python
+   queries = [
+       "Dentist Austin TX",
+       "Chiropractor Austin TX",
+   ]
+   ```
+   The scraper runs once for each string and pulls every matching Google Maps business.
 4. Run the scraper:
    ```bash
    python script.py
