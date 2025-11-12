@@ -483,27 +483,7 @@ class GoogleMapsScraper:
         print(f"✓ Results saved to {filename}")
         return filename
 
-queries = [
-    "Freight Forwarder Doral FL",
-    "3PL Doral FL",
-    "Third-Party Logistics Doral FL",
-    "Transportation Services Doral FL",
-    "Trucking Company Doral FL",
-    "Carrier Doral FL",
-    "Freight Carrier Doral FL",
-    "Cargo Services Doral FL",
-    "Drayage Services Doral FL",
-    "Warehouse Doral FL",
-    "Distribution Center Doral FL",
-    "Fulfilment Center Doral FL",
-    "Public Warehouse Doral FL",
-    "Cold Storage Doral FL",
-    "Supply Chain Management Doral FL",
-    "Import Export Doral FL",
-    "Customs Broker Doral FL",
-    "Air Cargo Doral FL",
-    "Ocean Cargo Doral FL",
-    "Truck Repair Doral FL"
+queries = ["add all the queries to run on google maps to search google businesses", "like Freight brokers in Tracy"
 ]
 
 async def main():
